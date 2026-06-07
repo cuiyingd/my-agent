@@ -1,0 +1,26 @@
+/.venv
+__pycache__/
+.pytest_cache/
+dist/
+build/
+*.pyc
+.DS_Store
+
+# Editor / OS
+.vscode/
+.idea/
+
+# Python
+.mypy_cache/
+.pytype/
+.cache/
+.coverage
+.tox/
+.eggs/
+*.egg-info/
+pip-wheel-metadata/
+htmlcov/
+
+# Local env files
+.env
+
