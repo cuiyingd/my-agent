@@ -82,6 +82,9 @@ Step 1:
 - 如果要调用 OpenAI API：在 `LLMClient.ask()` 中集成 `openai` 客户端，或使用 `langchain` 的包装器。
 - 如果要使用本地模型（如 `transformers` 或 `llama-cpp-python`）：在 `LLMClient` 内加载模型并返回生成结果。
 
+未来可扩展：
+- 添加 `mypy` 类型检查，进一步提升代码健壮性和静态验证。
+
 示例（伪代码）：
 
 ```py
